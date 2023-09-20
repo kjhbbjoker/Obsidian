@@ -242,7 +242,6 @@ return str.startsWith("A");
 
 <br>
 
-
 ```kotlin
 fun startsWithsWith1(str: String?): Boolean {  
 if (str == null) {  
@@ -541,6 +540,7 @@ fun main(){
 Kotlin의 조건문은 Java와 비슷하게 사용할 수 있으며, Kotlin의 표현력 있는 문법을 활용하여 더 간결하고 가독성 있는 코드를 작성할 수 있습니다.
 
 <br>
+
 ### **Kotlin에서의 조건문과 반환**
 
 Kotlin에서는 `if` 조건문을 표현식으로 사용하여 더 간결하게 코드를 작성할 수 있습니다. 아래는 예제와 설명입니다:
@@ -575,6 +575,7 @@ fun getPassOrFail(score: Int): String {
 Kotlin의 `if` 표현식을 적극적으로 활용하면 코드를 간결하게 유지할 수 있으며, Java와 비교하여 가독성이 향상됩니다.
 
 <br>
+
 ### **Kotlin에서의 조건문과 반환**
 
 ```kotlin
@@ -603,7 +604,6 @@ fun getPassOrFail(score: Int): String {
 - Kotlin에서는 삼항 연산자가 없습니다. 대신 `if` 표현식을 활용하여 값을 반환합니다.
 
 Kotlin의 `if` 표현식을 적극적으로 활용하면 코드를 간결하게 유지할 수 있으며, Java와 비교하여 가독성이 향상됩니다.
-
 <br>
 
 ### **Kotlin에서의 조건문과 범위 표현**
@@ -658,7 +658,6 @@ Kotlin의 `when` 표현식은 간결하면서도 다양한 상황에서 활용�
 
 #### **Kotlin `when` 표현식의 다양한 활용 예시**
 
-![[7777777.png]]
 ```kotlin
   
 fun getGradeWithSwitch(score: Int): String {  
