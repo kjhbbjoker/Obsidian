@@ -240,12 +240,6 @@ return str.startsWith("A");
 ```
 <자바에서 null 체크 방법>
 
-
-
-<br>
-
-
-
 ```kotlin
 fun startsWithsWith1(str: String?): Boolean {  
 if (str == null) {  
